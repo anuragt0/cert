@@ -13,8 +13,8 @@ class App extends Component {
 
     render() {
         return (
-            <div className="App">
-                <div className="Meta">
+            <div className="App" >
+                <div className="Meta" >
                     <h1> Certificates</h1>
                     <p>Enter your name</p>
                     <input type="text" placeholder="enter your name" value={this.state.Name}
@@ -23,7 +23,7 @@ class App extends Component {
                         }}
                     />
                 </div>
-                <div id="certificateWrapper">
+                <div id="certificateWrapper" style={{textAlign:"center"}}>
                     <p>{this.state.Name}</p>
                     <img src="https://i.imgur.com/ijBTqRjh.png" alt="certificate" />
                 </div>
